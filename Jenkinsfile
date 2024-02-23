@@ -22,7 +22,7 @@ pipeline {
                 sudo /home/team09/miniconda3/condabin/conda run -n anisha_mlip6 pytest
 
                 echo 'pytest not runned'
-                exit 1 #comment this line after implementing Jenkinsfile
+                # exit 1 #comment this line after implementing Jenkinsfile
                 '''
 
             }
